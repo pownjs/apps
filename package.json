@@ -4,7 +4,7 @@
   "description": "Pown Apps",
   "main": "lib/index.js",
   "bin": {
-    "pown-apps": "apps.js"
+    "pown-apps": "bin/apps.js"
   },
   "directories": {
     "lib": "lib"
