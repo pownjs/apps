@@ -5,6 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "apps": "POWN_ROOT=. pown-cli apps",
+    "webview": "POWN_ROOT=. pown-cli webview",
     "test": "mocha"
   },
   "repository": {
@@ -25,8 +26,8 @@
     "@pown/cli": "^2.10.0"
   },
   "dependencies": {
-    "JSONStream": "^1.3.2",
-    "pown-webview": "0.0.2"
+    "@pown/webview": "^2.0.0",
+    "JSONStream": "^1.3.2"
   },
   "pown": {
     "commands": [
