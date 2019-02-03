@@ -1,17 +1,11 @@
 {
-  "name": "pown-apps",
-  "version": "0.0.3",
-  "description": "Pown Apps",
+  "name": "@pown/apps",
+  "version": "2.0.0",
+  "description": "Pownage guaranteed",
   "main": "lib/index.js",
-  "bin": {
-    "pown-apps": "bin/apps.js"
-  },
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
-    "apps": "POWN_ROOT=. pown apps",
-    "test": "true"
+    "apps": "POWN_ROOT=. pown-cli apps",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -20,20 +14,23 @@
   "keywords": [
     "Apps"
   ],
-  "author": "pdp",
+  "author": "pdp <pdp@gnucitizen.org>",
+  "contributors": [],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/pownjs/pown-apps/issues"
   },
   "homepage": "https://github.com/pownjs/pown-apps#readme",
+  "devDependencies": {
+    "@pown/cli": "^2.10.0"
+  },
   "dependencies": {
     "JSONStream": "^1.3.2",
-    "pown-cli": "^0.3.0",
     "pown-webview": "0.0.2"
   },
   "pown": {
     "commands": [
-      "lib/command.js"
+      "lib/commands/apps.js"
     ]
   }
 }
