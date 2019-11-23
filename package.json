@@ -23,11 +23,11 @@
   },
   "homepage": "https://github.com/pownjs/pown-apps#readme",
   "devDependencies": {
-    "@pown/cli": "^2.10.0"
+    "@pown/cli": "^2.19.0"
   },
   "dependencies": {
     "@pown/webview": "^2.0.0",
-    "JSONStream": "^1.3.2"
+    "JSONStream": "^1.3.5"
   },
   "pown": {
     "commands": [
