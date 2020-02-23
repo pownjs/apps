@@ -26,7 +26,7 @@
     "@pown/cli": "^2.20.0"
   },
   "dependencies": {
-    "@pown/cdb": "^2.2.0",
+    "@pown/cdb": "^2.3.0",
     "@pown/request": "^2.8.4",
     "@pown/webview": "^2.2.0",
     "@pureproxy/mitmproxy": "^1.1.0",
