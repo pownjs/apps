@@ -3,7 +3,7 @@ exports.yargs = {
     describe: 'App launcher',
 
     builder: (yargs) => {
-        const { apps } = require('../apps')
+        const { apps } = require('../lib/apps')
 
         Object.entries(apps).forEach(([name, { description, url }]) => {
             yargs.command({
@@ -28,7 +28,7 @@ exports.yargs = {
 
                     const args = []
 
-                    args.push(path.join(__dirname, '..', 'main.js'))
+                    args.push(path.join(__dirname, '..', 'lib', 'main.js'))
 
                     url = url || argv.url
 
