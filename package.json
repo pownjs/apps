@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "@pown/cdb": "^2.3.1",
+    "@pown/channel": "^2.11.1",
     "@pown/request": "^2.8.4",
     "@pown/webview": "^2.2.0",
     "@pureproxy/mitmproxy": "^1.1.0",
