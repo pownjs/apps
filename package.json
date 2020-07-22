@@ -4,9 +4,10 @@
   "description": "Pownage guaranteed",
   "main": "lib/index.js",
   "scripts": {
+    "build": "true",
+    "test": "mocha",
     "apps": "POWN_ROOT=. pown-cli apps",
-    "webview": "POWN_ROOT=. pown-cli webview",
-    "test": "mocha"
+    "webview": "POWN_ROOT=. pown-cli webview"
   },
   "repository": {
     "type": "git",
@@ -29,7 +30,7 @@
     "@pown/cdb": "^2.3.1",
     "@pown/channel": "^2.12.1",
     "@pown/request": "^2.13.0",
-    "@pown/webview": "^2.5.0",
+    "@pown/webview": "^2.6.0",
     "@pureproxy/mitmproxy": "^1.1.0",
     "@pureproxy/utils": "^1.0.1",
     "JSONStream": "^1.3.5"
