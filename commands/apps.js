@@ -1,6 +1,7 @@
 exports.yargs = {
     command: 'apps <app>',
     describe: 'App launcher',
+    aliases: ['app'],
 
     builder: (yargs) => {
         const { apps } = require('../lib/apps')
