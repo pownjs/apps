@@ -29,7 +29,7 @@ exports.yargs = {
 
                     const args = []
 
-                    args.push(path.join(__dirname, '..', 'lib', 'main.js'))
+                    args.push(path.join(__dirname, '..', '..', 'lib', 'main.js'))
 
                     url = url || argv.url
 
