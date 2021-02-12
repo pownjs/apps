@@ -4,7 +4,7 @@ exports.yargs = {
     aliases: ['app'],
 
     builder: (yargs) => {
-        const { apps } = require('../lib/apps')
+        const { apps } = require('../../lib/apps')
 
         Object.entries(apps).forEach(([name, { description, url }]) => {
             yargs.command({
